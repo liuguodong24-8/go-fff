@@ -1,0 +1,23 @@
+[app]
+ip = "127.0.0.1"
+port = 5000
+
+## 日志
+[log]
+channel = "block"   # 分类
+level = 1           # 级别 1:debug  2:warn 3:info 4:error 5:panic
+output = "D://Log"         # 日志输出 不配置(默认stdout) 配置文件路劲
+stack = false        # 是否打印堆栈信息
+
+[MongoDB]
+#addr = "mongodb://lgd@123456:192.168.8.153:27017"
+addr = "mongodb://localhost:27017"
+mongodbUri = "mongodb://localhost:27017"
+database = "test1"
+username  = "lgd"
+password = "123456"
+timeout = 5
+
+[Chain]
+address = "http://47.109.29.166:8488"
+wsAddress = "ws://47.109.29.166:8588"

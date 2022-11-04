@@ -1,0 +1,10 @@
+const web3 = require("web3")
+
+const init_holders = [
+  {% for v in Holders %}
+   {
+     "address": "{{ v.address }}",
+     "balance": web3.utils.toBN("500000000000000000000").toString("hex"),
+   },{% endfor %}
+];
+exports = module.exports = init_holders

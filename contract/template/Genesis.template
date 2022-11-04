@@ -1,0 +1,79 @@
+{
+  "config": {
+    "chainId": {{chainId}},
+    "homesteadBlock": 0,
+    "eip150Block": 0,
+    "eip150Hash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+    "eip155Block": 0,
+    "eip158Block": 0,
+    "byzantiumBlock": 0,
+    "constantinopleBlock": 0,
+    "petersburgBlock": 0,
+    "istanbulBlock": 0,
+    "muirGlacierBlock": 0,
+    "ramanujanBlock": 0,
+    "nielsBlock": 0,
+    "parlia": {
+      "period": 3,
+      "epoch": 100
+    }
+  },
+  "nonce": "0x0",
+  "timestamp": "0x5e9da7ce",
+  "extraData": "{{extraData}}",
+  "gasLimit": "0x2625a00",
+  "difficulty": "0x1",
+  "mixHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+  "coinbase": "FFF5zHLVW5pTHcRCh1bTvkBCvhthDCHtVQoTyhE3QovzJBdnLyw2RV8XEd",
+  "alloc": {
+    "FFF6672WbdorrmkMpavk1S5ALpoN82XpSirbMWZicxhhqqNeromt65d6TE": {
+      "balance": "0x0"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcX": {
+      "balance": "0x0",
+      "code": "0x{{validatorContract}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcY": {
+      "balance": "0x0",
+      "code": "0x{{slashContract}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcZ": {
+      "balance": "0x0",
+      "code": "0x{{systemRewardContract}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrca": {
+      "balance": "0x0",
+      "code": "0x{{tendermintLightClient}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcb": {
+      "balance": "0x0",
+      "code": "0x{{tokenHub}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcc": {
+      "balance": "0x0",
+      "code": "0x{{relayerIncentivize}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcd": {
+      "balance": "0x0",
+      "code": "0x{{relayerHub}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrce": {
+      "balance": "0x0",
+      "code": "0x{{govHub}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWiBrcf": {
+      "balance": "0x0",
+      "code": "0x{{tokenManager}}"
+    },
+    "FFF3Psbq3enwAmwXGa2QejWFdd9AwV1rczE6w1GPzs6WTPmJpKbmWjfqts": {
+      "balance": "0x0",
+      "code": "0x{{crossChain}}"
+    }{% for v in initHolders %},
+    "{{ v.address.replace('0x', '') }}": {
+      "balance": "0x{{ v.balance }}"
+    }{% endfor %}
+  },
+  "number": "0x0",
+  "gasUsed": "0x0",
+  "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000"
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/3f-chain(1)/3f-chain" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/3fcoin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/composer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/appointment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/basic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/member-account" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/member-extension" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/member-private" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/merchant-basic" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/message" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/payment" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Crius/services/wechat" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bsc-genesis-contract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/bsc1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caliper" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/caliper/caliper-benchmarks" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/dy/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethereum-org" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/ethereumjs-wallet" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fff-contract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fff-contract-test" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/fff-explorer" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/go-fff-master/build/bin" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/gobtclib" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/js-ethereum-cryptography" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/music_video" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/nft" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/npm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/openzeppelin-contracts" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/share/bsc" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/share/bsc-genesis-contract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/share/node-binary" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/uniswap-interface" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/uniswap-v2-contract" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/v2-core" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/v2-periphery" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/v3-sdk" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/whitepaper" vcs="Git" />
+  </component>
+</project>

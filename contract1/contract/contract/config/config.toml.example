@@ -1,0 +1,11 @@
+[app]
+ip = "127.0.0.1"
+port = 5000
+[MongoDB]
+addr = "192.168.8.152"
+port = 27017
+timeout = 1000
+database = "test"
+username  = "lgd"
+password = "123456"
+poollimit = 5
