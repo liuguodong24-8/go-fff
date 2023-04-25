@@ -21,7 +21,7 @@ import (
 	"encoding/hex"
 	"errors"
 	"fmt"
-	"github.com/fff-chain/go-fff/accounts/keystore"
+	"go-fff-master/accounts/keystore"
 	"net"
 	"reflect"
 	"strings"
@@ -214,8 +214,8 @@ func TestNodeString(t *testing.T) {
 
 	//生成ks 显示私钥
 	ks := keystore.NewKeyStore("D:/mnt10/", keystore.StandardScryptN, keystore.StandardScryptP)
-	address, _ := ks.NewAccount("")
-	_, err := ks.Export(address, "", "")
+	address, _ := ks.NewAccount("123456")
+	_, err := ks.Export(address, "123456", "123456")
 	if err != nil {
 		panic(err)
 	}

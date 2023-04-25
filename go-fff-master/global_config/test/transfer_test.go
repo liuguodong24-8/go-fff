@@ -1,17 +1,23 @@
 package test
 
 import (
+	"fmt"
+	"github.com/fff-chain/go-fff/crypto"
+	"github.com/fff-chain/go-fff/global_config/wallet"
 	"testing"
 )
 
 func TestTransfer(t *testing.T) {
+	str := "Transfer(address,address,uint256)"
+	fmt.Println(crypto.Keccak256Hash([]byte(str)))
+	return
 
-	/*wl := wallet.Init("https://nodetest.3fchain.org/", "http://127.0.0.1:8545")
+	wl := wallet.Init("https://nodetest.3fchain.org/", "http://127.0.0.1:8545")
 
 	keyJson := `{"address":"FFF3WCZBKvZYxxPVKxzMLqNJWN6MwaZEhsaBUY72TT9GoBXdNZmZ3rRmzz","crypto":{"cipher":"aes-128-ctr","ciphertext":"abc1acba2f5933b53f17c16ba83df1bbf33d9541275b49e405d11b16001da297","cipherparams":{"iv":"774250d3fbc384786cb710cd93a9031b"},"kdf":"scrypt","kdfparams":{"dklen":32,"n":262144,"p":1,"r":8,"salt":"fbee1d148b04eced5de6b4cffa340e8c3aa95fe7348a072ec4df34f540e0bfb8"},"mac":"8f82ae1f4fd144c1d1bb7b79be00cd4990b0c9152862bfe830a1cc12ddd22fc1"},"id":"01c87816-4b8b-40b9-89f7-ab02731f334c","version":3}`
 	fmt.Println(wl.KeystoreToPrivateKey(keyJson, ""))
 
-	return*/
+	return
 
 	// 合约事件签名哈希值，对事件的字符做keccak散列运算
 	/*str := "Transfer(address,address,uint256)"
